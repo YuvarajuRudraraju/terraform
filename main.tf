@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "yuva_bucket" {
-  bucket = "demo-github-action-tf-medium"
+  bucket = "demo-github-action-tf-yuvaraju"
 
   object_lock_enabled = false
 
